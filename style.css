@@ -345,13 +345,12 @@ p {
 }
 .yeddicard {
   background: #ffffff;
-  margin-left: 24px;
-  width: 427px;
+  width: 400px;
   height: 216px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   padding: 24px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 .yeddicard input[type="submit"] {
   background: #71a894;
@@ -381,6 +380,7 @@ p {
 }
 .dvider {
   margin-top: 52px;
+  margin-bottom: 20px;
 }
 .sekkizsol {
   display: flex;
@@ -404,33 +404,67 @@ p {
   background: #71a894;
   color: #ffffff;
 }
-.sekkizsag img{
-  margin-left: 100px;
+.sekkizsag img {
+  margin-left: 60px;
 }
 
-.footer{
-  border: 1px solid red;
+.footer {
   justify-content: space-between;
 }
 
-.footer .footer-logo h1{
-  border: 1px solid green;
+.footer .footer-logo h1 {
   flex: 0 0 182px;
- display: flex;
- align-items: center;
- margin: 20px 0 0 56px; 
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 56px;
+  font-family: "Open Sans";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  
+  letter-spacing: -0.04em;
+  
+  /* Black */
+  
+  color: #303031;
 }
 
 .footer .footer-menu {
-  border: 1px solid blue;
-  flex: 0 0 464px;
+  flex: 0 0 524px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 40px;
   margin-right: 49px;
-}
 
+}
+.footer .footer-menu a{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-decoration: none;
+/* Black */
+color: #303031;
+
+}
+.footer .footer-menu a:last-child {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.02em;
+
+/* Green */
+
+color: #71A894;
+
+}
 .col {
   box-sizing: border-box;
 }
